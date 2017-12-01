@@ -5,4 +5,4 @@ SSH注解式整合，使用easyUI实现学生管理系统，实例运用枚举�
 
 班级管理：
 
-![image](https://github.com/GZzzhsmart/SSH/tree/master/src/main/webapp/static/images/class.jpg
+![images](https://github.com/GZzzhsmart/SSH/tree/master/src/main/webapp/static/images/class.jpg)
