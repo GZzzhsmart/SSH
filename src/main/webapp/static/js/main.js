@@ -396,6 +396,8 @@ function dele(url,listId){
                 },'json');
             }
         });
+    }else{
+            showInfoAlert("请选择要删除的行");
     }
 }
 
