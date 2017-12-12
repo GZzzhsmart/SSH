@@ -391,13 +391,13 @@ function dele(url,listId){
                         $.messager.alert("系统提示","已成功删除这条记录!");
                         $("#"+listId).datagrid("reload");
                     }else{
-                        $.messager.alert("系统提示",result.message);
+                        showInfoAlert(result.message);
                     }
                 },'json');
             }
         });
     }else{
-            showInfoAlert("请选择要删除的行");
+         showInfoAlert("请选择要删除的行");
     }
 }
 
